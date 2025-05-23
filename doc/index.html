@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Blazor + WebSerial Barcode Scanner</title>
+</head>
+<body>
+    <h1>バーコードスキャナ WebSerial デモ</h1>
+    <button onclick="startScanning()">読み取り開始</button>
+    <button onclick="stopScanning()">読み取り停止</button>
+    <p>読み取り結果: <span id="result">（未読み取り）</span></p>
+
+    <!-- 外部JSファイルを読み込み -->
+    <script src="scanner.js"></script>
+</body>
+</html>
